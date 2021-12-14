@@ -1,8 +1,11 @@
 # javascript
 ## from basics to advanced
 ---
-> prjects
+> projects
+
 > challenges
+
+> problem solving 
 
 ```javascript
 
