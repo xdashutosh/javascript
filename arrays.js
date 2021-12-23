@@ -28,5 +28,7 @@ else{
     console.log("not present");
 }
 
+//empty arrays
+const emp=[];
 
 
