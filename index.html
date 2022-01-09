@@ -5,19 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>javascript course</title>
-  </head>
-  <body>
-    <p class="intro">my name is ashutosh</p>
-    <input type="text" class="guess">
-    <button class="click">
-      click me
-    </button>
-    <p class="eve"></p>
+    </head>
+<style>
+  .info{
+    height: 200px;
+    width:80%;
+    padding-top: 22px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+  }
+  .close{
+    margin-bottom: 10px;
+    margin-left: 80%;
+  }
+  .hidden{
+    display: none;
+  }
+  .hid{
+    opacity: .2;
+  }
+  .overlay{
+    opacity: 1;
+  }
+</style>
+    <body>
+      <div class="sec">
+
+        <div class="overlay hid">
+          
+          <p class="intro">my name is ashutosh</p>
+          <input type="text" class="guess" />
+          <button class="click">click me</button>
+          <p class="eve"></p>
+          <p class="thiskey"></p>
+          <button class="btn">show</button>
+          <button class="btn">hide</button>
+          <button class="btn">profile</button>
+          <button class="clickit">click</button>
+          
+        </div>
+        <div class="info hidden">
+          
+          <button class="close">close</button>
+          <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex non
+          laudantium, sunt qui doloribus minus accusantium illo exercitationem
+          deserunt nam facere praesentium quaerat at mollitia aliquam repellendus
+          voluptas reprehenderit quasi!zzz
+        </div>
+      </div>
 
     <!-- <script src="part1(js_fundamentals).js"></script> -->
     <!-- <script src="functions.js"></script> -->
     <!-- <script src="arrays.js"></script> -->
     <!-- <script src="object.js"></script> -->
-    <script src="DOM.js"></script>
+    <!-- <script src="DOM.js"></script> -->
+    <script src="execution_context.js"></script>
   </body>
 </html>
