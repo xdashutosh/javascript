@@ -76,7 +76,7 @@ const str="ashu";
 const letter=[...str,"","chaudhary"];
 console.log(...letter);
 
-//function use fof spread operator
+//function use of spread operator
 const pasta=(price,ing,size)=>{
 console.log(`you got a ${size} pizza worth ${price} with ${ing}!`);
 }
@@ -91,3 +91,25 @@ console.log(foodandfun);
 
 foodandfun.pizza();
 
+//REST OPERATOR********************************************
+// divide single array into parts
+//work before assignment operator--left side
+const [a,b,...other]=[1,2,3,4,5,6,7];
+console.log(other);
+
+//function overloading in rest pattern
+
+const add=function(...number)
+{
+    let sum=0;
+    for (let i = 0; i < number.length; i++) {
+        sum+=number[i];
+        
+    }
+
+    console.log(sum);
+}
+
+
+add(1,2,3);
+add(4,3,6,8);
