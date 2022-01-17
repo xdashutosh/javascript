@@ -13,7 +13,6 @@ console.log(mydata[mydata.length - 1][2]);
 friend.push("abhinav"); //return  new length
 friend.unshift("akhil"); //add at first place
 console.log(friend);
-
 friend.pop(); //return last poped element
 friend.shift(); //return first poped element
 console.log(friend);
