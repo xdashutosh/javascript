@@ -263,5 +263,3 @@ console.log(newpara.join(" ").replace('Is','is'));
 
 first_upper("my name is ashutosh chaudhary");
 
-
-
