@@ -78,3 +78,4 @@ console.log(friends.sort());
 console.log(transections.sort((pre,next)=>{
 return pre>next?true:false;
 }));
+
